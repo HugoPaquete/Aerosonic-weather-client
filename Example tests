@@ -1,0 +1,7 @@
+def test_client_creation():
+    client = WeatherClient()
+    assert client.get_current_city() == "Lisbon"
+
+def test_set_city():
+    client = WeatherClient()
+    assert client.set_city("Tokyo") == True
