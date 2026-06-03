@@ -1,0 +1,23 @@
+@dataclass
+class WeatherData:
+    temperature: float      # °C
+    wind_speed: float       # km/h
+    precipitation: float    # mm
+    city: str               # City name
+    temp_norm: float        # 0-1 normalized
+    wind_norm: float        # 0-1 normalized
+    precip_norm: float      # 0-1 normalized
+    source: str             # Data source
+    timestamp: float        # Unix timestamp
+    
+    def to_dict(self) -> Dict:
+        return {
+            'temperature': self.temperature,
+            'wind_speed': self.wind_speed,
+            'precipitation': self.precipitation,
+            'city': self.city,
+            'temp_norm': self.temp_norm,
+            'wind_norm': self.wind_norm,
+            'source': self.source,
+            'timestamp': self.timestamp
+        }
