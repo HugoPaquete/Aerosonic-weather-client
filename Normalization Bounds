@@ -1,0 +1,9 @@
+Parameter	Min	Max	Formula
+Temperature	-30°C	50°C	(value + 30) / 80
+Wind speed	0 km/h	50 km/h	value / 50
+Precipitation	0 mm	100 mm	value / 100
+
+from aerosonic.weather_client import WeatherBounds
+
+temp_norm = WeatherBounds.normalize_temp(25.0)
+wind_norm = WeatherBounds.normalize_wind(15.0)
