@@ -1,0 +1,8 @@
+from aerosonic.weather_client import WeatherClient
+
+client = WeatherClient()
+weather = client.fetch()
+
+print(f"City: {weather.city}")
+print(f"Temperature: {weather.temperature}°C")
+print(f"Wind Speed: {weather.wind_speed} km/h")
