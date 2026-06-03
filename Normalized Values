@@ -1,0 +1,4 @@
+weather = client.fetch()
+
+print(f"Temperature: {weather.temperature}°C -> normalized: {weather.temp_norm:.2f}")
+print(f"Wind speed: {weather.wind_speed} km/h -> normalized: {weather.wind_norm:.2f}")
