@@ -1,0 +1,3 @@
+client.set_city("Tokyo")
+weather = client.fetch()
+print(f"Tokyo: {weather.temperature}°C")
