@@ -1,0 +1,15 @@
+WeatherClient Methods
+Method	Description	Returns
+fetch()	Get current weather data	WeatherData
+set_city(city)	Change current city	bool
+get_cities()	List all available cities	List[str]
+get_current_city()	Get current city name	str
+WeatherData Attributes
+Attribute	Type	Description	Range
+temperature	float	Temperature in °C	-30 to 50
+wind_speed	float	Wind speed in km/h	0 to 50
+precipitation	float	Precipitation in mm	0 to 100
+city	str	City name	-
+temp_norm	float	Normalized temperature	0 to 1
+wind_norm	float	Normalized wind speed	0 to 1
+source	str	Data source	-
