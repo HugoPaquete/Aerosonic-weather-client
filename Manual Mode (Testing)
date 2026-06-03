@@ -1,0 +1,10 @@
+client.set_manual_mode(True, {
+    "temperature": 30,
+    "wind_speed": 25,
+    "precipitation": 10
+})
+
+weather = client.fetch()
+print(f"Manual mode: {weather.temperature}°C")
+
+client.set_manual_mode(False)
