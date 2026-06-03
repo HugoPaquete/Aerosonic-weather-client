@@ -1,0 +1,8 @@
+class WeatherBounds:
+    TEMP_MIN, TEMP_MAX = -30.0, 50.0
+    WIND_MIN, WIND_MAX = 0.0, 50.0
+    PRECIP_MIN, PRECIP_MAX = 0.0, 100.0
+    
+    @classmethod
+    def normalize(cls, value, min_val, max_val):
+        return max(0.0, min(1.0, (value - min_val) / (max_val - min_val)))
