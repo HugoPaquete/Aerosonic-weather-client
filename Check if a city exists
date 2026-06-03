@@ -1,0 +1,2 @@
+if "Tokyo" in client.get_cities():
+    client.set_city("Tokyo")
