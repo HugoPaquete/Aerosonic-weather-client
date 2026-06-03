@@ -1,0 +1,8 @@
+# Install development dependencies
+pip install -e . pytest black
+
+# Run tests
+pytest tests/
+
+# Format code
+black aerosonic/ tests/
