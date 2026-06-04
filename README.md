@@ -1,10 +1,14 @@
 # AEROSONIC Weather Client
 
-Free and open-source Python weather client. Fetches real-time meteorological data from Open-Meteo API with procedural fallback and automatic normalization.
+> Free and open-source Python weather client. Fetches real-time meteorological data from Open-Meteo API with procedural fallback and automatic normalization.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Requests](https://img.shields.io/badge/requests-2.28+-green.svg)](https://requests.readthedocs.io/)
+[![FCT](https://img.shields.io/badge/FCT-2024.09158.CEECIND-blue.svg)](https://www.fct.pt)
+[![INET-md](https://img.shields.io/badge/INET-md-University%20of%20Aveiro-purple.svg)](https://www.inetmd.pt)
+[![DeepSeek](https://img.shields.io/badge/DeepSeek-AI%20Assisted-orange.svg)](https://deepseek.com)
+[![Website](https://img.shields.io/badge/website-hugopaquete.com-1e3a8a.svg)](https://www.hugopaquete.com)
 
 ---
 
@@ -23,9 +27,10 @@ Free and open-source Python weather client. Fetches real-time meteorological dat
 - [Testing](#testing)
 - [Project Structure](#project-structure)
 - [Development](#development)
-- [License](#license)
+- [Funding](#funding)
 - [Credits](#credits)
 - [Citation](#citation)
+- [License](#license)
 - [Contact](#contact)
 
 ---
