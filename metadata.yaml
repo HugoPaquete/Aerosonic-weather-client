@@ -1,0 +1,96 @@
+---
+project:
+  name: "AEROSONIC Weather Client"
+  version: "1.0.0"
+  status: "production"
+  release_date: "2026-01-15"
+  
+description:
+  short: "Python weather client for sonification and ML"
+  long: |
+    AEROSONIC Weather Client is a lightweight Python module that fetches real-time 
+    meteorological data from Open-Meteo API. It includes automatic caching, 
+    procedural fallback when API is unavailable, and normalization of all values 
+    to 0-1 range, specifically designed for sonification and machine learning applications.
+  
+authors:
+  - name: "Hugo Paquete"
+    role: "Principal Investigator, Developer"
+    affiliation: "INET-md | University of Aveiro"
+    email: "hugopaquete@ua.pt"
+    website: "https://www.hugopaquete.com"
+    
+contributors:
+  - name: "DeepSeek AI"
+    role: "Collaborative development, Technical assistance"
+  - name: "Open-Meteo"
+    role: "Weather data API provider"
+
+funding:
+  agency: "Fundação para a Ciência e a Tecnologia (FCT)"
+  grant: "2024.09158.CEECIND"
+  program: "CEEC Individual Support"
+  period:
+    start: "2026-03"
+    end: "2029-12"
+  institution: "INET-md | University of Aveiro"
+  
+technical:
+  language: "Python 3.9+"
+  dependencies:
+    - "requests>=2.28.0"
+  api_provider: "Open-Meteo"
+  features:
+    - "Real-time weather data"
+    - "12+ cities pre-configured"
+    - "5-second caching TTL"
+    - "Procedural fallback"
+    - "Automatic normalization (0-1 range)"
+    
+normalization_bounds:
+  temperature:
+    min: -30
+    max: 50
+    formula: "(value + 30) / 80"
+  wind_speed:
+    min: 0
+    max: 50
+    formula: "value / 50"
+  precipitation:
+    min: 0
+    max: 100
+    formula: "value / 100"
+
+cities:
+  Europe:
+    - "Lisbon"
+    - "Porto"
+    - "London"
+    - "Paris"
+    - "Berlin"
+    - "Rome"
+    - "Madrid"
+  North_America:
+    - "New York"
+  Asia:
+    - "Tokyo"
+  Oceania:
+    - "Sydney"
+  South_America:
+    - "Sao Paulo"
+  Africa:
+    - "Cape Town"
+
+license: "MIT"
+repository: "https://github.com/HugoPaquete/Aerosonic-weather-client"
+documentation: "https://github.com/HugoPaquete/Aerosonic-weather-client#readme"
+website: "https://www.hugopaquete.com"
+
+citation: |
+  @software{Paquete_2026_Weather_Client,
+    author = {Paquete, Hugo},
+    title = {AEROSONIC Weather Client},
+    year = {2026},
+    publisher = {GitHub},
+    url = {https://github.com/HugoPaquete/Aerosonic-weather-client}
+  }
