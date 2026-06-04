@@ -1,0 +1,31 @@
+{
+  "name": "aerosonic-weather",
+  "version": "1.0.0",
+  "description": "Python weather client with real-time data, procedural fallback, and automatic normalization for sonification and ML applications.",
+  "author": {
+    "name": "Hugo Paquete",
+    "email": "hugopaquete@ua.pt",
+    "url": "https://www.hugopaquete.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "weather",
+    "python",
+    "api",
+    "sonification",
+    "normalization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoPaquete/Aerosonic-weather-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HugoPaquete/Aerosonic-weather-client/issues"
+  },
+  "homepage": "https://github.com/HugoPaquete/Aerosonic-weather-client#readme",
+  "funding": {
+    "type": "FCT Grant",
+    "url": "https://www.fct.pt",
+    "grantNumber": "2024.09158.CEECIND"
+  }
+}
