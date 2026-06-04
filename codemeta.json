@@ -1,0 +1,44 @@
+{
+  "@context": "https://raw.githubusercontent.com/codemeta/codemeta/master/codemeta.jsonld",
+  "@type": "SoftwareSourceCode",
+  "name": "AEROSONIC Weather Client",
+  "description": "Python weather client with real-time data, procedural fallback, and automatic normalization for sonification and ML applications.",
+  "version": "1.0.0",
+  "dateCreated": "2026-01-15",
+  "datePublished": "2026-01-15",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Hugo",
+      "familyName": "Paquete",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "INET-md | University of Aveiro"
+      },
+      "email": "hugopaquete@ua.pt"
+    }
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "keywords": [
+    "weather",
+    "python",
+    "api-client",
+    "sonification",
+    "normalization",
+    "open-meteo"
+  ],
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "Python",
+    "version": "3.9+"
+  },
+  "codeRepository": "https://github.com/HugoPaquete/Aerosonic-weather-client",
+  "issueTracker": "https://github.com/HugoPaquete/Aerosonic-weather-client/issues",
+  "runtimePlatform": "Cross-platform",
+  "developmentStatus": "Active",
+  "funder": {
+    "@type": "Organization",
+    "name": "Fundação para a Ciência e a Tecnologia",
+    "identifier": "2024.09158.CEECIND"
+  }
+}
