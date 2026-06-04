@@ -1,0 +1,76 @@
+{
+  "title": "AEROSONIC Weather Client",
+  "description": "Free and open-source Python weather client. Fetches real-time meteorological data from Open-Meteo API with procedural fallback and automatic normalization for sonification and machine learning applications.",
+  "creators": [
+    {
+      "name": "Paquete, Hugo",
+      "affiliation": "INET-md | University of Aveiro",
+      "orcid": "0000-0000-0000-0000"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "DeepSeek AI",
+      "type": "Other",
+      "affiliation": "DeepSeek"
+    },
+    {
+      "name": "Open-Meteo",
+      "type": "DataCollector",
+      "affiliation": "Open-Meteo"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "weather",
+    "python",
+    "api",
+    "open-meteo",
+    "sonification",
+    "aerosonic",
+    "machine-learning",
+    "normalization",
+    "real-time",
+    "meteorology",
+    "data-science"
+  ],
+  "grants": [
+    {
+      "id": "2024.09158.CEECIND",
+      "title": "AI as Catalyst: Transformative Impacts on Digital Performance, Computer Music, and Cultural Creativity",
+      "funder": "Fundação para a Ciência e a Tecnologia (FCT)"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "software"
+    },
+    {
+      "identifier": "python"
+    },
+    {
+      "identifier": "open-science"
+    }
+  ],
+  "upload_type": "software",
+  "language": "eng",
+  "publication_date": "2026-01-15",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/HugoPaquete/Aerosonic-weather-client",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.hugopaquete.com",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ],
+  "references": [
+    "https://open-meteo.com/",
+    "https://github.com/psf/requests"
+  ],
+  "notes": "This work was supported by FCT grant 2024.09158.CEECIND (AI as Catalyst project, University of Aveiro/INET-md)."
+}
