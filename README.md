@@ -89,12 +89,3 @@ Documentation: https://github.com/HugoPaquete/Aerosonic-weather-client#readme
 
 ```bash
 pip install requests
-
-Citation
-bibtex
-@software{Paquete_2026_Weather_Client,
-  author = {Paquete, Hugo},
-  title = {AEROSONIC Weather Client},
-  year = {2026},
-  url = {https://github.com/HugoPaquete/Aerosonic-weather-client}
-}
