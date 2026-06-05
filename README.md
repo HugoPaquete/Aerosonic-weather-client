@@ -9,7 +9,7 @@
 [![INET-md](https://img.shields.io/badge/INET-md-University%20of%20Aveiro-purple.svg)](https://www.inetmd.pt)
 [![DeepSeek](https://img.shields.io/badge/DeepSeek-AI%20Assisted-orange.svg)](https://deepseek.com)
 [![Website](https://img.shields.io/badge/website-hugopaquete.com-1e3a8a.svg)](https://www.hugopaquete.com)
-[![DOI](https://zenodo.org/badge/1258775949.svg)](https://doi.org/10.5281/zenodo.20538817)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20538818.svg)](https://doi.org/10.5281/zenodo.20538817)
 
 ---
 
